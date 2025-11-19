@@ -5,7 +5,7 @@ public class Reto1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(Funcion2.invertirFrase("hola buenas "));
-		System.out.println(Funcion2.palabraLarga("estaaaaaaaa23 que tal "));
+		System.out.println(Funcion2.palabraLarga("1 22 333 4444 55555"));
 		
 		
 	}
