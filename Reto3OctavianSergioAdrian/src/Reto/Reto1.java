@@ -16,7 +16,11 @@ public class Reto1 {
 		
 =======
 		System.out.println(Funcion2.invertirFrase("hola buenas "));
+<<<<<<< HEAD
 		System.out.println(Funcion2.palabraLarga("estaaaaaaaa23 que tal "));
+>>>>>>> branch 'main' of https://github.com/adrianruizz/Reto3OctavianSergioAdrian.git
+=======
+		System.out.println(Funcion2.palabraLarga("1 22 333 4444 55555"));
 >>>>>>> branch 'main' of https://github.com/adrianruizz/Reto3OctavianSergioAdrian.git
 		
 		

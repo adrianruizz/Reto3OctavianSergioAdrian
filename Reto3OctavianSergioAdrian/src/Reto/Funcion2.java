@@ -38,15 +38,16 @@ public class Funcion2 {
 		String palabralarga = "";
 		for (int i = 0; i < frase.length(); i++) {
 			if (!Character.isWhitespace(frase.charAt(i))) {
+				palabra += frase.charAt(i);
 				invertida=palabra+invertida;
 				
 				if (palabra.length()>palabralarga.length()) {
 					palabralarga=palabra;
 				}
-				palabra="";
+				
 			}
 			else {
-				palabra += frase.charAt(i);
+				palabra="";
 			}
 			
 

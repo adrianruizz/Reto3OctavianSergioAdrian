@@ -3,7 +3,7 @@ package Reto;
 import java.util.Scanner;
 
 public class Funcion3 {
-
+  //Funcion mostrar numeros en una frase
 	public static String numerosEnFrase(String digito) {
 
 		String nueva = "";
@@ -26,27 +26,23 @@ public class Funcion3 {
 
 	
 	
+	// Funcion contar vocales de un texto y decir que palabra tiene mas
 	
-	
-	public static int vocalesString(String texto) {
+	public static int ContarVocales(String texto) {
 		int contador = 0;
-		int maxvocales = 0;
-		int minvocales = 0;
+		
+		String vocales = "aeiuo";
 		String textoMinusculas = texto.toLowerCase();
 		for (int i = 0; i < textoMinusculas.length(); i++) {
-			char c = textoMinusculas.charAt(i);
-			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+			char palabra = textoMinusculas.charAt(i);
+			if (vocales.indexOf(textoMinusculas)) {
 				contador++;
 			}
-			for (int j = minvocales; j < maxvocales; j++) {
-
-				if (maxvocales >minvocales) {
-					return maxvocales;
-				}
+			
 				
 			}
-		}
-		return maxvocales;
+		
+		return contador;
 	}
 
 }
