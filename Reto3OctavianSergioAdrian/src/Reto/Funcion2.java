@@ -1,7 +1,7 @@
 package Reto;
 
 public class Funcion2 {
-
+	/* Cuenta las palabras que tiene una frase */
 	public static int contarPalabras(String frase) {// 15
 		int contador = 0;
 
@@ -14,6 +14,7 @@ public class Funcion2 {
 		return contador;
 	}
 
+	/* Invierte el orden de las palabras en la frase */
 	public static String invertirFrase(String frase) {
 		String palabra = "";
 		String invertida = "";
@@ -32,6 +33,7 @@ public class Funcion2 {
 
 	}
 
+	/* Muestra la palabra mas larga */
 	public static String palabraLarga(String frase) {
 		String palabra = "";
 		String invertida = "";
@@ -39,26 +41,19 @@ public class Funcion2 {
 		for (int i = 0; i < frase.length(); i++) {
 			if (!Character.isWhitespace(frase.charAt(i))) {
 				palabra += frase.charAt(i);
-				invertida=palabra+invertida;
-				
-				if (palabra.length()>palabralarga.length()) {
-					palabralarga=palabra;
-				}
-				
-			}
-			else {
-				palabra="";
-			}
-			
+				invertida = palabra + invertida;
 
-		
-		
-}
+				if (palabra.length() > palabralarga.length()) {
+					palabralarga = palabra;
+				}
+
+			} else {
+				palabra = "";
+			}
+
+		}
 		return palabralarga;
 
-	
 	}
-	
-
 
 }
